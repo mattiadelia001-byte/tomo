@@ -38,7 +38,7 @@ Decidi la domenica, poi ogni giorno ti mostra solo cosa fare. Tu spunti.
 
 Un'attività saltata ieri non diventa un rimprovero. Ti chiede solo se farla oggi o lasciarla stare. Le giornate saltate apposta non rompono la serie dei giorni di fila: perdonarsi un passo falso aiuta a ripartire, mentre colpevolizzarsi fa rimandare di più ([Wohl, Pychyl e Bennett, 2010](https://doi.org/10.1016/j.paid.2010.01.029)).
 
-### Widget sulla scrivania
+### Widget sul tuo Desktop
 
 <img src="docs/widget.png" alt="Il widget con le attività di oggi" width="300" align="right">
 
