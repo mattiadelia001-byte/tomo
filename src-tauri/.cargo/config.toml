@@ -1,0 +1,3 @@
+# The .noindex folder keeps Spotlight and Launchpad from indexing test builds as duplicate apps.
+[build]
+target-dir = "target.noindex"
