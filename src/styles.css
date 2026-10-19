@@ -337,7 +337,8 @@ textarea.input { height: auto; padding: 10px 12px; resize: none; line-height: 1.
 .icon-pick:hover { background: var(--surface); }
 .icon-pick:active { transform: scale(0.9); }
 .icon-pick.on { background: var(--c-dot); color: #fff; }
-.new-cat-foot { display: flex; justify-content: flex-end; gap: 8px; }
+.new-cat-foot { display: flex; gap: 8px; }
+.new-cat-foot .grow { flex: 1; }
 .btn:disabled { opacity: 0.45; pointer-events: none; }
 .optional { font-weight: 500; color: var(--faint); margin-left: 4px; }
 .seg { display: inline-flex; padding: 3px; gap: 2px; background: var(--canvas); border-radius: 999px; }

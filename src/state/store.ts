@@ -123,6 +123,18 @@ export function addCategory(input: Omit<Category, "id">): string {
   return id;
 }
 
+export function updateCategory(id: string, patch: Omit<Category, "id">) {
+  set({ categories: get().categories.map((c) => (c.id === id ? { ...patch, id } : c)) });
+}
+
+/** Its tasks stay (shown as "Altro"); its goals go, since they can't be tracked anymore. */
+export function deleteCategory(id: string) {
+  set({
+    categories: get().categories.filter((c) => c.id !== id),
+    goals: get().goals.filter((g) => g.categoryId !== id),
+  });
+}
+
 // ---------- goals ----------
 
 export function saveGoal(goal: Omit<Goal, "id"> & { id?: string }) {
